@@ -113,3 +113,35 @@ footer {
     color: rgba(255, 255, 255, 0.452);
     height: 450px;
 }
+
+.search_seedcare_button {
+    background: transparent !important;
+    color: black;
+    background: transparent;
+    border:none;
+    left: -2.5rem;
+}
+.search_seedcare_button:hover {
+    color:black;
+}
+
+.search_seedcare {
+    position: relative;
+    height: 64px;
+}
+#outline-form {
+    width: 80%;
+}
+
+.search_seedcare_form {
+    border-radius: 50rem !important;
+    height: 64px;
+    min-width: 120px;
+}
+
+.navbar-brand img {
+    height:64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
