@@ -1,0 +1,12 @@
+/*
+    Here will be custom css which is
+    used across all pages
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
