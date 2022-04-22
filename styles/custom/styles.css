@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+/* Выделение  зеленым  на страницах */
+::selection {
+    background: #29993491;
+}
+
 :root {
     /* Typography */
     --font-el-messiri: 'El Messiri', sans-serif;
@@ -28,7 +33,6 @@ body {
     margin: 0;
     color: var(--color-black-900);
     background-color: var(--color-white-100)  !important;
-
 }
 
 main {
