@@ -43,7 +43,7 @@ main {
 a {
     all: unset;
     cursor: pointer;
-    color:inherit;
+    color:#45A576;
 }
 
 
@@ -93,7 +93,6 @@ a {
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: 7px solid #299934F5;
-
 }
 .profile_mini a {
     margin-right: 0.5rem;
