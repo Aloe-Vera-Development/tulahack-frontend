@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+<<<<<<< HEAD <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta name="description" content="" />
@@ -23,43 +22,43 @@
 	<link rel="stylesheet" href="../styles/custom/login.css">
 	<link rel="stylesheet" href="../styles/custom/styles.css">
 
-<body class="text-center">
+	<body class="text-center">
 
-	<!-- Login form start -->
-	<form class="login_form container w-25 p-25">
-		<div class="d-inline-block align-items-center flex-column mb-3">
-			<h1 class="h3 mb-3 font-weight-normal">Войти</h1>
-			<input type="email" id="inputEmail" class="form-control my-2" placeholder="Email" required autofocus
-				style="border-radius: 3rem" />
-			<input type="password" id="inputPassword" class="form-control my-2" placeholder="Пароль" required
-				style="border-radius: 3rem" />
-			<label class="login_form__secondary  show_password">
-				<input type="checkbox" onclick="myFunction()" />Показать пароль
-			</label>
-		</div>
+		<!-- Login form start -->
+		<form class="login_form container w-25 p-25">
+			<div class="d-inline-block align-items-center flex-column mb-3">
+				<h1 class="h3 mb-3 font-weight-normal">Войти</h1>
+				<input type="email" id="inputEmail" class="form-control my-2" placeholder="Email" required autofocus
+					style="border-radius: 3rem" />
+				<input type="password" id="inputPassword" class="form-control my-2" placeholder="Пароль" required
+					style="border-radius: 3rem" />
+				<label class="login_form__secondary  show_password">
+					<input type="checkbox" onclick="myFunction()" />Показать пароль
+				</label>
+			</div>
 
-		<div class="d-flex flex-column">
-			<button class="btn btn-default btn-success btn-block rounded-pill my-2" type="submit">
-				Войти
-			</button>
-			<button class="btn btn-default btn-success btn-block rounded-pill mb-3" type="submit">
-				Регистрация
-			</button>
-			<a href="#" class="login_form__secondary"><u>Забыли пароль?</u></a>
-		</div>
-	</form>
-	<script>
-		function myFunction() {
-			var x = document.getElementById("inputPassword");
-			if (x.type === "password") {
-				x.type = "text";
-			} else {
-				x.type = "password";
+			<div class="d-flex flex-column">
+				<button class="btn btn-default btn-success btn-block rounded-pill my-2" type="submit">
+					Войти
+				</button>
+				<button class="btn btn-default btn-success btn-block rounded-pill mb-3" type="submit">
+					Регистрация
+				</button>
+				<a href="#" class="login_form__secondary"><u>Забыли пароль?</u></a>
+			</div>
+		</form>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("inputPassword");
+				if (x.type === "password") {
+					x.type = "text";
+				} else {
+					x.type = "password";
+				}
 			}
-		}
-	</script>
-	<!-- Login form end -->
-</body>
+		</script>
+		<!-- Login form end -->
+	</body>
 
 
 </html>
