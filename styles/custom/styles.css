@@ -48,10 +48,9 @@ a {
 
 
 .navbar_seedcare {
-    padding: 0 0;
     font-family: var(--font-el-messiri) !important;
     font-size: 1.15rem;
-    height: 86px;
+    min-height: 86px;
     max-width: 1000px;
     margin: auto;
 }
