@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example page</title>
+
+    <!-- Фавиконка -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+
+
+    <!-- CSS конкретно для этой страницы -->
+    <link rel="stylesheet" href="../styles/custom/styles.css">
+</head>
+
+<body>
+    <main>
+        <!-- Navbar -->
+        <div class="navbar_wrapper">
+            <nav class="navbar_seedcare navbar navbar-expand-lg navbar-light bg-light">
+                <!-- TODO: Разобраться с тем  почему не работает навбар тогглер или вырезать его -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo"
+                    aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">SeedCare</a>
+
+                <!-- <div class="navbar_collapse_disabled" id="navbarTogglerDemo"> -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <!-- <a class="nav-link" href="#">Домой <span class="sr-only">(current)</span></a> -->
+                            <a class="nav-link" href="#">Календарь</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Мои Растения</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">База Знаний</a>
+                        </li>
+                    </ul>
+                    <div class="flex_spacer"></div>
+                    <div class="profile_mini">
+                        <a href="#">Роман Лернер</a>
+                        <img src="../res/avatar.png" alt="аватар">
+                    </div>
+                </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Разработано в рамках хакатона TulaHack2022</p>
+        <p>© Aloe Vera, 2022</p>
+
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
