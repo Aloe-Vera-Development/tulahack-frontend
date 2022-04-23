@@ -178,3 +178,8 @@ footer {
 }
 
 
+@media (min-width: 990px) {
+    #registrationButton_navbar{
+        margin-right: 40px;
+    }
+}
