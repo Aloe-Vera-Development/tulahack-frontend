@@ -6,6 +6,8 @@
 /* Font imports */
 /* El messiri */
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* Inter */
 
 * {
     box-sizing: border-box;
@@ -19,6 +21,7 @@
 :root {
     /* Typography */
     --font-el-messiri: 'El Messiri', sans-serif;
+    --font-inter: 'Inter', sans-serif;
 
     /* Colors */
     --color-black-900: #000000;
@@ -48,12 +51,28 @@ a {
 
 
 .navbar_seedcare {
-    font-family: var(--font-el-messiri) !important;
-    font-size: 1.15rem;
+    font-family: var(--font-inter) !important;
+    font-size: 20px;
     min-height: 86px;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: auto;
+
 }
+.navbar_seedcare a.nav-link {
+    color:#45A576 !important;
+
+}
+.navbar_seedcare a.nav-link:hover {
+    color:#000 !important;
+
+}
+.navbar_seedcare li.nav-item {
+    margin: 0 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .navbar_collapse_disabled {
     flex-grow: 1;
@@ -71,10 +90,11 @@ a {
 .navbar_wrapper {
     /* From bootstrap */
     position:relative;
-    background-color: rgb(248, 249, 250) !important;
+    background-color: rgba(248, 249, 250, 0.973) !important;
     width: 100%;
     text-align: center;
-    padding: 0 15%;
+    padding: 0 5%;
+    /* display:flex; */
 }
 
 .flex_spacer  {
@@ -92,11 +112,12 @@ a {
     height: 70px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    border: 7px solid #299934F5;
+    /* border: 7px solid #299934F5; */
 }
 .profile_mini a {
     margin-right: 0.5rem;
     cursor:pointer;
+    color: black;
 }
 
 footer {
@@ -120,7 +141,7 @@ footer {
     color: black;
     border:none;
     font-size: 24px;
-    right:50px;
+    right:5px;
     top: 10px;
 
 }
@@ -134,7 +155,7 @@ footer {
 }
 #outline-form {
     position: relative;
-    width: 85%;
+    width: 100%;
 }
 
 .search_seedcare_form {
@@ -180,7 +201,7 @@ footer {
 
 @media (min-width: 990px) {
     #registrationButton_navbar{
-        margin-right: 40px;
+        margin: 0 40px;
     }
 }
 
