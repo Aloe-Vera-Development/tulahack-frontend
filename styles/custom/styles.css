@@ -113,3 +113,68 @@ footer {
     color: rgba(255, 255, 255, 0.452);
     height: 450px;
 }
+
+.search_seedcare_button {
+    position:absolute !important;
+    background: transparent !important;
+    color: black;
+    border:none;
+    font-size: 24px;
+    right:50px;
+    top: 10px;
+
+}
+.search_seedcare_button:hover {
+    color:black;
+}
+
+.search_seedcare {
+    position: relative;
+    height: 64px;
+}
+#outline-form {
+    position: relative;
+    width: 85%;
+}
+
+.search_seedcare_form {
+    border-radius: 50rem !important;
+    height: 64px;
+    min-width: 120px;
+    font-size: 24px;
+
+}
+
+.navbar-brand img {
+    height:64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.navbar_button {
+    background: #45D08D91;
+    color: black;
+    height: 64px;
+    font-size: 24px;
+    width: 100%;
+    max-width: 260px;
+    align-self: center;
+    font-family: var(--font-el-messiri);
+    height: 53px;
+    padding: 0 47px;
+}
+
+#navbarTogglerDemo a {
+    display:block;
+}
+/* #navbarTogglerDemo div.input-group {
+    display:flex;
+    align-items: center;
+} */
+.input-group-wrapper {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
